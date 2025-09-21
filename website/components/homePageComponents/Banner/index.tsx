@@ -32,7 +32,7 @@ const Banner: React.FC = () => {
             {/* Grid Banner */}
 
             <div className="grid grid-cols-3 gap-2 overflow-visible xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-12 lg:gap-0 xl:grid-cols-12 ">
-                {bannerImage.map((item, index) => (
+                {bannerImage.slice(0, 72).map((item, index) => (
                     <div key={index} className="overflow-visible">
                         <ImageCard item={item} />
                     </div>
@@ -127,7 +127,7 @@ const Banner: React.FC = () => {
             </div>
 
             {/* Mobile Bottom Banner Overlay - only visible on mobile */}
-            <div className="pointer-events-none absolute bottom-[400px] left-1/2 z-20 flex h-[260px] w-[274px] -translate-x-1/2 transform flex-col justify-center overflow-clip bg-[url('/images/banner/mweb-hero-card.png')] bg-cover bg-center bg-no-repeat px-3 pb-3 pt-[2.25rem] md:hidden">
+            <div className="pointer-events-none absolute bottom-[200px] left-1/2 z-20 flex h-[260px] w-[274px] -translate-x-1/2 transform flex-col justify-center overflow-clip bg-[url('/images/banner/mweb-hero-card.png')] bg-cover bg-center bg-no-repeat px-3 pb-3 pt-[2.25rem] md:hidden">
                 <div className="">
                     <div className="flex flex-col  gap-2">
                         <span className="bg-gradient-to-r from-primary-gradient-start to-primary-gradient-end box-decoration-clone bg-clip-text text-[2rem] font-bold  leading-8 text-transparent">

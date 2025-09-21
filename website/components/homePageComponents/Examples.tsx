@@ -6,7 +6,7 @@ import SectionTitle from "../commonComponents/SectionTitle";
 const Examples = () => {
     const duplicatedData = [...examplesData, ...examplesData];
     return (
-        <section className="mx-auto mt-4 flex max-w-5xl flex-col gap-10  sm:py-16 lg:mt-0">
+        <section className="mx-auto mt-4 max-w-5xl gap-10 p-4 sm:py-16 lg:mt-28 lg:px-0 lg:py-0">
             <SectionTitle
                 mainTitle="EXAMPLES"
                 title={

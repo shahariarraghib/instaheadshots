@@ -3,7 +3,7 @@ import SectionTitle from "../commonComponents/SectionTitle";
 
 const PrivacySection = () => {
     return (
-        <section className="mx-auto max-w-5xl gap-10 px-4 py-12 sm:py-16">
+        <section className="mx-auto mt-4 max-w-5xl gap-10 p-4 sm:py-16 lg:mt-28 lg:px-0 lg:py-0">
             <SectionTitle
                 mainTitle="PRIVACY"
                 title={
@@ -18,7 +18,7 @@ const PrivacySection = () => {
                 left
             />
 
-            <div className="grid auto-rows-fr grid-cols-1 justify-items-center gap-5 sm:grid-cols-2">
+            <div className="grid auto-rows-fr grid-cols-1 justify-items-center gap-5 sm:grid-cols-2 mt-6">
                 <div className="flex w-full flex-col gap-3 rounded-xl border border-primary/20 p-5">
                     <img alt="Privacy Feature Icon" src="/images/privacyImage/delete.svg" className="h-8 w-8" />
                     <p className="text-xl font-medium sm:text-2xl">Delete when you want (or we do it for you)</p>

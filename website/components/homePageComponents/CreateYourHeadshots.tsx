@@ -4,7 +4,7 @@ import React from "react";
 const CreateYourHeadshots = () => {
     return (
         <section>
-            <div className="flex flex-col py-12 sm:py-16">
+            <div className="mx-auto mt-4  gap-10 p-4 sm:py-16 lg:mt-28 lg:px-0 lg:py-0">
                 <div className="relative mx-auto flex w-full items-center justify-center gap-5 overflow-hidden">
                     {createYourHeadshotsData.map((item, index) => (
                         <div

@@ -10,7 +10,7 @@ const Pricing = () => {
     console.log(pricingData);
     return (
         <>
-            <section className="mx-auto mt-4 max-w-5xl gap-10 sm:py-4 lg:mt-6">
+            <section className="mx-auto mt-4 max-w-5xl gap-10 p-4 sm:py-16 lg:mt-28 lg:px-0 lg:py-0">
                 {" "}
                 <SectionTitle
                     mainTitle="PRICING"
@@ -251,7 +251,7 @@ const Pricing = () => {
                 </div>
             </section>
 
-            <div className="mb-16 mt-7 w-full  overflow-hidden bg-yellow-500/10 py-6 ">
+            <div className="mb-16 mt-16 w-full  overflow-hidden bg-yellow-500/10 py-6 ">
                 <Marquee autoFill={true} speed={70} pauseOnHover={true} direction="left">
                     {pricingMarqueeData.map((item: marqueeType, index: number) => (
                         <MarqueeCard key={index} item={item} />

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Compare = () => {
     return (
-        <section className="mx-auto mt-4 max-w-5xl gap-10 sm:py-4 lg:mt-6">
+        <section className="mx-auto mt-4 max-w-5xl gap-10 p-4 sm:py-16 lg:mt-28 lg:px-0 lg:py-0">
             <SectionTitle
                 mainTitle="COMPARE"
                 title={

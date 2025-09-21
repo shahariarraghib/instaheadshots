@@ -4,7 +4,7 @@ import { rosourceData } from "@/content/resourceData";
 
 const Resources = () => {
     return (
-        <section className="mx-auto max-w-5xl gap-10  sm:py-16">
+        <section className="mx-auto mt-4 max-w-5xl gap-10 p-4 sm:py-16 lg:mt-28 lg:px-0 lg:py-0">
             <SectionTitle
                 mainTitle="RESOURCES"
                 title={

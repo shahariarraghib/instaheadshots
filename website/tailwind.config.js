@@ -43,6 +43,15 @@ module.exports = {
                 secondaryDark: "#1E1D23",
                 "primary-gradient-start": "#2295ff ",
                 "primary-gradient-end": "#274aff"
+            },
+            keyframes: {
+                shine: {
+                    "0%": { transform: "translateX(-100%)" },
+                    "100%": { transform: "translateX(100%)" }
+                }
+            },
+            animation: {
+                shine: "shine 2s linear infinite"
             }
         }
     },
